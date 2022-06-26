@@ -1,0 +1,50 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+    
+    
+}
+
+.header {
+    background-image: url(images/dim-gunger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80vh;
+    
+
+}
+.positioning {
+    position: relative;
+    top: 40%;
+    
+    
+}
+
+.shadow-box {
+    display: flex;
+    gap: 35px;
+    height: 250px;
+    width: auto;
+    background-color: rgba(62, 62, 62, 0.4);
+    justify-content: center;
+    
+}
+
+.logo {
+    height: 170px;
+    width: auto;
+    margin-top: 30px;
+}
+
+.logo-font {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 7rem;
+    margin-top: 35px;
+}
