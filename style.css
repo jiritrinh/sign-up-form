@@ -1,3 +1,8 @@
+:root {
+    --main-color: #e6e9ee;
+    --font-color: #191245;
+}
+
 
 body {
     margin: 0px;
@@ -63,5 +68,32 @@ a {
     font-family: 'Poppins', sans-serif;
     bottom: 20px;
     left: 20px;
+    
+}
+
+.main {
+    width: 60%;
+    height: 100%;
+    background-color: var(--main-color);
+    border: 1px solid black;
+}
+
+.introduction-block {
+    display: flex;
+    height: 650px;
+    border: 1px solid red;
+    align-items: flex-end;
+    
+    
+}
+
+.introduction {
+    color: var(--font-color);
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    width: 1400px;
+    margin-left: 100px;
+    margin-bottom: 100px;
     
 }
