@@ -106,6 +106,18 @@ a {
 
 }
 
+.form-content {
+    display: flex;
+
+}
+
+
+
+.form-cell {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 
