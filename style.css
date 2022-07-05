@@ -1,6 +1,7 @@
 :root {
     --main-color: #e6e9ee;
     --font-color: #191245;
+    
 }
 
 
@@ -33,7 +34,7 @@ a {
 }
 .positioning {
     position: relative;
-    top: 40%;
+    top: 43%;
     
     
 }
@@ -71,6 +72,11 @@ a {
     
 }
 
+
+
+
+
+
 .main {
     width: 60%;
     height: 100%;
@@ -81,7 +87,6 @@ a {
 .introduction-block {
     display: flex;
     height: 350px;
-    border: 1px solid red;
     align-items: flex-end;
     
     
@@ -100,24 +105,75 @@ a {
 }
 
 .form-block {
-    height: 300px;
-    border: 1px solid red;
+    height: 320px;
     background-color: white;
+    box-shadow: 1px 3px 8px #888888;
+    
 
 }
 
 .form-content {
     display: flex;
+    gap: 75px;
 
 }
 
+.form-col {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 
 .form-cell {
     display: flex;
     flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 250px;
 }
 
+input {
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 3px;
+    font-size: 16px;
+    height: 30px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    outline: none;
+    color: var(--font-color);
+    
+    
+}
+
+input:focus {
+    border: 1px solid #ba48b7;
+    
+}
+
+
+
+input:valid {
+    border: 1px solid green;
+}
+
+.form-position {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 50px;
+    
+}
+
+.form-title {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--font-color);
+}
 
 
 
