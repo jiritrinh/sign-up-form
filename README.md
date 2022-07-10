@@ -5,3 +5,5 @@ I have finished another project - **Sign Up Form (made up company called "Haihon
 **[Take a look!](https://jiritrinh.github.io/sign-up-form/)**
 
 ![image](https://user-images.githubusercontent.com/82679505/177888778-ce2a5c42-cf4e-4ada-a9a0-3ea36ca49c8b.png)
+
+**Special thanks to Dim Ginger for using his image from Unsplash!**
